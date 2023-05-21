@@ -11,19 +11,76 @@ body{
 nav{
     background-color: rgb(53,66,74);
     color: white;
+    border-bottom: 2px solid rgb(169,80,139);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.nav__left{
+    font-size: 1.3rem;
+}
+.nav__right{
+    font-size: 0.9rem;
+}
+.nav__right ul {
+    display: flex;
+}
+.nav__right li {
+    /* display: inline; */
+    flex-direction: row;
+    list-style: none;
+}
+.nav__right li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+#home{
+    color: rgb(169,80,139);
 }
 .nav__left span{
     color: rgb(169,80,139);
 }
-
-
-
-
-
+/*! MAIN AREA */
 
 .main__top{
     background-image: url(./img/showcase.jpg);
     background-position: center;
     background-size: cover;
     height: 20vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.main__top h1{
+padding-bottom: 1rem;
+}
+.main__top p{
+    font-size: 0.8rem;
+    
+}
+
+.main__mid{
+    background-color: rgb(53,66,74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    color: white;
+}
+.main__mid h2{
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+.main__mid--form input{
+height: 1.8rem;
+}
+.main__mid--form button{
+height: 1.8rem;
+background-color: rgb(232,73,29);
+
 }
