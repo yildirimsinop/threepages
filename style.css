@@ -1,0 +1,29 @@
+/*! univrsal selector default settigns */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*! NAV area */
+nav{
+    background-color: rgb(53,66,74);
+    color: white;
+}
+.nav__left span{
+    color: rgb(169,80,139);
+}
+
+
+
+
+
+
+.main__top{
+    background-image: url(./img/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+}
