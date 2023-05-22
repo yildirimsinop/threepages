@@ -126,3 +126,19 @@ footer p{
 }
 
 /*! ABOUT PAGE */
+.about__main{
+    display: flex;
+    padding: 1rem;
+    gap: 3rem;
+}
+.dark{
+    background-color: rgb(53,66,74);
+    color: white;
+    padding: 1rem;
+    /*! section must be a bit little */
+    
+}
+
+
+/*! SERVICES PAGE */
+
